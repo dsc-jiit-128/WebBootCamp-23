@@ -13,84 +13,31 @@ Hellix-LightItalic.ttf
 Hellix-Light.ttf
 */
 /* Initialize fonts */
+
 @font-face {
     font-family: 'Hellix';
-    src: url('fonts/Helix-SemiBoldItalic.ttf') format('truetype');
-    font-weight: 600;
+    src: url('/fonts/Hellix-ThinItalic.ttf') format('truetype');
+    font-weight: 200;
     font-style: italic;
 }
 @font-face {
     font-family: 'Hellix';
-    src: url('fonts/Helix-ThinItalic.ttf') format('truetype');
-    font-weight: 100;
-    font-style: italic;
-}
-@font-face {
-    font-family: 'Hellix';
-    src: url('fonts/Helix-Thin.ttf') format('truetype');
-    font-weight: 100;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Hellix';
-    src: url('fonts/Helix-RegularItalic.ttf') format('truetype');
-    font-weight: 400;
-    font-style: italic;
-}
-@font-face {
-    font-family: 'Hellix';
-    src: url('fonts/Helix-MediumItalic.ttf') format('truetype');
+    src: url('/fonts/Hellix-Medium.ttf') format('truetype');
     font-weight: 500;
-    font-style: italic;
 }
 @font-face {
     font-family: 'Hellix';
-    src: url('fonts/Helix-Regular.ttf') format('truetype');
+    src: url('/fonts/Hellix-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
     font-family: 'Hellix';
-    src: url('fonts/Helix-Black.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Hellix';
-    src: url('fonts/Helix-Bold.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Hellix';
-    src: url('fonts/Helix-BoldItalic.ttf') format('truetype');
-    font-weight: 700;
-    font-style: italic;
-}
-@font-face {
-    font-family: 'Hellix';
-    src: url('fonts/Helix-BlackItalic.ttf') format('truetype');
-    font-weight: 900;
-    font-style: italic;
-}
-@font-face {
-    font-family: 'Hellix';
-    src: url('fonts/Helix-SemiBold.ttf') format('truetype');
+    src: url('/fonts/Hellix-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
 }
-@font-face {
-    font-family: 'Hellix';
-    src: url('fonts/Helix-LightItalic.ttf') format('truetype');
-    font-weight: 300;
-    font-style: italic;
-}
-@font-face {
-    font-family: 'Hellix';
-    src: url('fonts/Helix-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-}
+
 
 /* Initialize body */
 body{
@@ -120,10 +67,9 @@ body{
     align-items: center;
     flex: 1;
 }
-/* zstack : z-index stack */
 
 
-
+/* Initialize top-bar */
 /* top-bar */
 .top-bar{
     display: flex;
