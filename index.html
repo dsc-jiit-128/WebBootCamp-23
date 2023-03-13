@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- index.css -->
+    <link rel="stylesheet" href="index.css">
+    <title>WittyWeather</title>
+</head>
+
+<body>
+    <!-- top-bar with logo and search bar -->
+    <div class="top-bar">
+        <img src="assets/images/ww_logo.png" alt="WittyWeather Logo" class="logo">
+        <div class="search">
+            <input type="text" class="search-bar" placeholder="Search for a city">
+            <!-- search button -->
+            <button class="search-btn">
+                <img src="assets/images/search.png" width="100%" alt="search icon">
+            </button>
+        </div>
+
+
+
+    </div>
+    <div class="weather-container-main">
+        <!-- 2 containers, container 1 shows weather data, container 2 shows text -->
+        <!-- containter 1 width: 35% -->
+        <!-- container 2 width: 65% -->
+        <div class="weather-data">
+            <div class="vstack top-container">
+
+                <div class="temp weather-data-item">
+                    <div class="vstack">
+                        <div class="title">Temperature</div>
+                        <div class="hstack">
+                            <img src="assets/images/thermometer.png" width="30px" height="30px" alt="thermometer icon"
+                                class="icon">
+                            <div class="value">20</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="humidity weather-data-item">
+                    <div class="vstack">
+                        <div class="title">Humidity</div>
+                        <div class="hstack">
+                            <img src="assets/images/water.png" width="30px" height="30px" alt="thermometer icon"
+                                class="icon">
+                            <div class="value">34</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wind weather-data-item">
+                    <div class="vstack">
+                        <div class="title">Wind</div>
+                        <div class="hstack">
+                            <img src="assets/images/wind.png" width="30px" height="30px" alt="thermometer icon"
+                                class="icon">
+
+                            <div class="value">1.2</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-container">
+                <span class="title">NOIDA</span>
+            </div>
+        </div>
+        <div class="weather-text">
+            <p>
+                Well, the weather in Assam seems to be confused. It's like the temperature and humidity are playing a
+                game of "Who's the Boss?" while the wind is just a spectator enjoying the show.
+            </p>
+        </div>
+
+    </div>
+    <div class="footer">
+        <div class="footer-text">
+            <p>
+                Made with ❤️ by <a target="_blank" href="https://vishesh.dev/">Vishesh @ GDSC JIIT 128</a>
+            </p>
+        </div>
+
+</body>
+
+</html>
